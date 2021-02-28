@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    height: 40px;
+    background-color: #710304;
+}
+
+#header .header {
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+}
+
+#header .header .day {
+    color: #aa817f;
+    line-height: 40px;
+    float: left;
+}
+
+#header .header ul {
+    float: right;
+}
+
+#header .header ul li {
+    float: left;
+    color: #aa817f;
+}
+
+#header .header ul a {
+    color: #aa817f;
+    line-height: 40px;
+    margin: 0px 10px;
+}
+
+#header .header .top .acti {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+
+#header .header .top .acti a {
+    position: absolute;
+    top: -5px;
+    left: -2px;
+}
+
+#nav {
+    width: 100%;
+    height: 126px;
+
+}
+
+#nav .nav {
+    width: 1200px;
+    height: 126px;
+    margin: auto;
+}
+
+#nav .nav img {
+    width: 320px;
+    height: 52px;
+    margin-top: 37px;
+    float: left;
+}
+
+#nav .nav ul {
+    float: left;
+    margin-left: 120px;
+    padding-top: 50px;
+    position: relative;
+    height: 100%;
+    display: block;
+}
+
+#nav .nav ul li {
+    float: left;
+    position: relative;
+}
+
+#nav .nav ul li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #710304;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transition: all 0.5s;
+    margin-top: -2px;
+}
+
+#nav .nav ul li:hover {
+    color: #710304;
+}
+
+#nav .nav ul li:hover::after {
+    left: 0%;
+    width: 100%;
+}
+
+#nav .nav ul li a {
+    font-size: 18px;
+    line-height: 40px;
+    color: #343434;
+    position: relative;
+    margin: 0px 15px;
+}
+
+#nav .nav ul li .active {
+    color: #710304;
+    font-weight: 999;
+}
+
+#nav .nav ul li a:hover {
+    color: #710304;
+    font-weight: 999;
+}
+
+#nav .nav ul img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: -50px;
+    top: 20px;
+}
+
+#nav .nav .box {
+    width: 676px;
+    height: 40px;
+    border-bottom: 1px solid #710304;
+    float: left;
+    margin-left: 120px;
+    margin-top: 50px;
+    display: flex;
+    display: none;
+}
+
+#nav .nav .box img {
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+}
+
+#nav .nav .box input {
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    font-size: 18px;
+    line-height: 30px;
+    width: 600px;
+}
+
+#nav .nav .box .right {
+    float: right;
+}
+
+#bannertwo {
+    width: 100%;
+    height: 428px;
+    position: relative;
+}
+
+#bannertwo .swiper-wrapper img {
+    width: 105%;
+    height: 428px;
+}
+
+#bannertwo .swiper-button-next {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+#bannertwo .swiper-button-prev {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+#bannertwo .swiper-pagination span {
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+}
+
+#bannernew {
+    width: 100%;
+    height: 44px;
+    background-color: #000;
+}
+
+#bannernew .bannernew {
+    width: 1200px;
+    height: 44px;
+    margin: auto;
+}
+
+#bannernew .bannernew .text {
+    color: #ffffff;
+    line-height: 44px;
+    float: left;
+}
+
+#bannernew .bannernew .lunbo {
+    width: 980px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+#bannernew .bannernew ul {
+    float: left;
+    width: 8000px;
+    overflow: hidden;
+    height: 44px;
+    position: relative;
+    left: 0px;
+   transition: all 0.5s;
+}
+
+#bannernew .bannernew ul li {
+    float: left;
+    width: 490px;
+    line-height: 44px;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+#bannernew .bannernew ul li a,
+span {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+#bannernew .bannernew ul li a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#xinwenquyu{
+    width: 240px;
+    height: 45px;
+    position: relative;
+    left: 45%;
+    top: 40px;
+    background-color: yellowgreen;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+}
+
+#xinwenquyu a{
+    color: white;
+    font-size: 18px;
+}
+
+#content{
+    width: 100%;
+    height: 2192px;
+    margin-top: 60px;
+}
+
+#content .content{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+ #bannerthree {
+    width: 500px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 40px;
+ 
+}
+
+#content .content #bannerthree img {
+    width: 100%;
+    height: 100%;
+}
+
+#content .content .swiper-pagination span {
+    float: right;
+}
+
+#content .content .swiper-pagination {
+    margin-left: -8px;
+}
+
+#content .content .swiper-slide span {
+
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    line-height: 40px;
+
+
+}
+
+#content .content .swiper-slide span a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    width: 300px;
+    height: 40px;
+    display: block;
+    font-size: 16px;
+    margin-left: 8px;
+}
+#content .content .xinwenul{
+    padding-top: 50px;
+
+}
+
+#content .content .xinwenul li{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    width: 700px;
+    margin-left: 20px;
+}
+
+#content .content .xinwenul li a{
+    color: black;
+    font-size: 16px;
+}
+
+#content .content .xinwenul li span{
+    color: black;
+}
+
+#content .img1{
+    width: 1200px;
+    margin: auto;
+}
+
+#content #product{
+    width: 100%;
+  background:  rgba(206, 204, 195, 0.1); 
+  height: 698px;
+  float: left;
+  margin-top: 40px;
+}
+
+#content .product{
+    width: 240px;
+    height: 45px;
+    margin: auto;
+    background-color: yellowgreen;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 30px;
+   
+    margin-top: 40px;
+}

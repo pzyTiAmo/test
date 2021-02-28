@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+#header{
+    width: 100%;
+    height: 62px;
+    background-color: #333333;
+}
+
+#header img{
+    width: 192px;
+    height: 62px;
+}
+
+#nav{
+    width: 100%;
+    height: 500px;
+    background: url(../img/10.png)no-repeat;
+    background-size:100% 150px;
+    background-position: 0px 200px;
+}
+
+#nav .box{
+    width: 570px;
+    height: 526px;
+    margin: 100px auto;
+    border: 1px solid rgba(17,113,142,0.5);
+    background-color: #fff;
+    border-radius: 10px;
+    background: url(../img/11.png) no-repeat center;
+    background-size: 80%;
+    background-position: 50px 20px;
+    position: relative;
+}
+
+#nav .box .chest{
+    width: 350px;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+}
+
+#nav .box .chest p{
+    font-size: 20px;
+}
+
+#nav .box .chest .input-group{
+    margin-bottom: 25px;
+ 
+}
+
+#nav .box .chest .input-group span{
+    background-color: #fff;
+  
+}
+
+#nav .box .chest .input-group input{
+    border-left: 0px;
+   
+}
+
+#nav .box .chest button{
+    width: 350px;
+    background-color: #c83545;
+    margin-top: 50px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#nav .box .glyphicon{
+    top: 0;
+}
+
+#nav .box .chest a{
+    color: red;
+    margin-left: 100px;
+}
+
+#nav .box .chest .text{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#nav .box .chest .error{
+    margin-top: -20px;
+    color: red;
+     display: block;
+     line-height: 30px;
+     display: none;
+}
+
+
+
+
+
+#nav .box .chest a:hover{
+    text-decoration: none;
+}
+
+#mask{
+    width: 100%;
+    height: 1200px;
+    background-color: gray;
+    opacity: 0.6;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#verification{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    z-index: 101;
+    width: 500px;
+    height: 420px;
+    display: none;
+}
+
+#verification p{
+    display: flex;
+    justify-content: space-between;
+   height: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 10px;
+}
+
+#verification p span{
+    margin-top: 10px;
+}
